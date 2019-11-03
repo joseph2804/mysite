@@ -1,0 +1,158 @@
+body {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1;
+  font-family: Camphor_W01_Regular;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #aaa; }
+  a:active {
+    color: #f6e58d; }
+  a:hover {
+    color: #f9ca24; }
+
+p {
+  margin: 0; }
+
+@font-face {
+  font-family: Camphor_W01_Regular;
+  src: url("/fonts/CamphorW01-Regular/CamphorW01Regular.ttf"); }
+@font-face {
+  font-family: eina01-bolduploaded_file;
+  src: url("/fonts/Eina01-Bold/Eina01-Bold.woff2") format("woff2"), url("/fonts/Eina01-Bold/Eina01-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: eina_01_semiboldsemibold;
+  src: url("/fonts/Eina01-SemiBold/Eina01-SemiBold.woff2") format("woff2"), url("/fonts/Eina01-SemiBold/Eina01-SemiBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.contact {
+  min-height: 40px;
+  max-width: 100%;
+  padding: 0 6rem;
+  background: -webkit-gradient(linear, left top, right top, from(#222f3e), to(#576574));
+  background: linear-gradient(90deg, #222f3e 0%, #576574 100%); }
+  .contact .announcement {
+    color: #aaa;
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding-top: 15px;
+    letter-spacing: 0.3rem; }
+  .contact ul {
+    float: right;
+    padding: 0; }
+    .contact ul li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 10px; }
+
+.logo h1 {
+  margin: 0;
+  text-align: center;
+  padding: 2rem 0; }
+  .logo h1 img {
+    width: 20rem;
+    height: 10rem; }
+
+.menu {
+  max-width: 100%;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef; }
+  .menu .menu-content {
+    position: static;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12px; }
+    .menu .menu-content ul {
+      text-align: center;
+      list-style: none;
+      margin: 0; }
+      .menu .menu-content ul li {
+        color: red;
+        width: 9rem;
+        letter-spacing: 0.2rem;
+        display: inline-block; }
+        .menu .menu-content ul li:hover {
+          background-color: #222f3e; }
+        .menu .menu-content ul li a {
+          color: #364453; }
+          .menu .menu-content ul li a:hover {
+            color: #f9ca24; }
+
+.body .banner {
+  max-width: 100%; }
+  .body .banner .section .item {
+    height: 620px; }
+    .body .banner .section .item img {
+      height: 100%;
+      width: 100%; }
+.body .content {
+  max-width: 65%;
+  margin: 65px auto;
+  height: 245px; }
+  .body .content .box {
+    width: 33.33%;
+    float: left;
+    height: 100%; }
+    .body .content .box .lifestyle-content {
+      padding: 0 15px;
+      height: 100%; }
+      .body .content .box .lifestyle-content img {
+        width: 100%;
+        height: 100%; }
+    .body .content .box .aboutme-content {
+      padding: 0 15px;
+      height: 100%; }
+      .body .content .box .aboutme-content img {
+        width: 100%;
+        height: 100%; }
+    .body .content .box .instagram-content {
+      padding: 0 15px;
+      height: 100%; }
+      .body .content .box .instagram-content img {
+        width: 100%;
+        height: 100%; }
+
+.footer {
+  clear: left;
+  max-width: 70%;
+  margin: 0 auto;
+  height: 87px; }
+  .footer .copyright {
+    width: 50%;
+    float: left; }
+    .footer .copyright .copyringht-content {
+      height: 27px;
+      padding-top: 5px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      .footer .copyright .copyringht-content p {
+        margin: auto 0; }
+  .footer .social {
+    width: 50%;
+    float: left;
+    position: relative;
+    line-height: 27px; }
+    .footer .social .social-content {
+      display: inline-block;
+      position: absolute;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      right: 5px; }
+      .footer .social .social-content ul {
+        margin: 0;
+        list-style: none; }
+        .footer .social .social-content ul li {
+          display: inline-block;
+          margin-left: 10px; }
+          .footer .social .social-content ul li i {
+            margin-right: 5px; }
+
+/*# sourceMappingURL=style.css.map */
