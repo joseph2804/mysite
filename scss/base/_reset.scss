@@ -1,0 +1,25 @@
+@import "../utilities/variables";
+body {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1;
+    font-family: $font-camphor;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #aaa;
+    
+    &:active{
+        color: $beekeeper;
+    }
+    &:hover{
+        color: $turbo;
+    }
+}
+p{
+    margin: 0;
+}

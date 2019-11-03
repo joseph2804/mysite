@@ -1,0 +1,44 @@
+.footer {
+    clear: left;
+    max-width: 70%;
+    margin: 0 auto;
+    height: 87px;
+    .copyright {
+        width: 50%;
+        float: left;
+        .copyringht-content {
+            height: 27px;
+            padding-top: 5px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            p {
+                margin: auto 0;
+            }
+        }
+    }
+    .social {
+        width: 50%;
+        float: left;
+        position: relative;
+        line-height: 27px;
+        .social-content {
+            display: inline-block;
+            position: absolute;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            right: 5px;
+            ul {
+                margin: 0;
+                list-style: none;
+                li {
+                    display: inline-block;
+                    margin-left: 10px;
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
