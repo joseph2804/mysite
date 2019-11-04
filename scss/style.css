@@ -122,27 +122,37 @@ p {
 
 .footer {
   clear: left;
-  max-width: 90%;
+  max-width: 70%;
   margin: 0 auto;
-  padding-top: 5vh;
-  height: 87px;
-  border-top: 1px solid #aaa; }
-  .footer p {
-    display: inline-block;
-    max-width: calc(100%-150px); }
-  .footer ul {
-    list-style: none;
-    float: right;
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: 1.5px; }
-    .footer ul li {
+  height: 87px; }
+  .footer .copyright {
+    width: 50%;
+    float: left; }
+    .footer .copyright .copyringht-content {
+      height: 27px;
+      padding-top: 5px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      .footer .copyright .copyringht-content p {
+        margin: auto 0; }
+  .footer .social {
+    width: 50%;
+    float: left;
+    position: relative;
+    line-height: 27px; }
+    .footer .social .social-content {
       display: inline-block;
-      margin-left: 30px; }
-      .footer ul li span {
-        margin-left: 10px; }
-      .footer ul li i {
-        color: #F1868A; }
+      position: absolute;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      right: 5px; }
+      .footer .social .social-content ul {
+        margin: 0;
+        list-style: none; }
+        .footer .social .social-content ul li {
+          display: inline-block;
+          margin-left: 10px; }
+          .footer .social .social-content ul li i {
+            margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */
